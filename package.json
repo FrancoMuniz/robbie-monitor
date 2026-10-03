@@ -1,0 +1,11 @@
+{
+  "name": "robbie-monitor",
+  "scripts": {
+    "start": "node --env-file=.env monitor.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "playwright-core": "^1.63.0"
+  },
+  "private": true
+}
